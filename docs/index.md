@@ -1,5 +1,5 @@
 ---
-title: Team Charter
+title: Team Charter & Organization
 ---
 
 ## Team Information
