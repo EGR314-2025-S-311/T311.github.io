@@ -13,7 +13,8 @@ title: Team Charter & Organization
 ### Class Overview
 - Preparation Date: 1/16/25
 - Spring 2025
-- ASU EGR 314 Kevin Nichols
+- ASU EGR 314
+- Instructor: Kevin Nichols
 
 ## Product Mission Statement
 
@@ -27,7 +28,12 @@ title: Team Charter & Organization
 - 5
 
 ### Team Communication Channels
-
+| Name | First Choice Communiation | Second Choice Communication | Third Choice Communication |
+| ------------- | ------------- | -------------------------------| ---------------------------|
+| Shon Ha  | Messages  | Phone | Discord |
+| Maximus Mathews | Messages  | Discord | Zoom |
+| Shelton Larance | Discord | Messages | Zoom |
+| Rohan Fernandez | Messages | Discord | Email |
 ### Communication Procedures
 
 ### Meeting Schedule
