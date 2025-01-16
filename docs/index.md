@@ -1,5 +1,5 @@
 ---
-title: EGR 314 Project
+title: Team Charter
 ---
 
 ## Team Information
@@ -13,7 +13,32 @@ title: EGR 314 Project
 ### Class Overview
 - Preparation Date: 1/16/25
 - Spring 2025
-- ASU EGR 314
-- Instructor: Kevin Nichols
+- ASU EGR 314 Kevin Nichols
+
+## Product Mission Statement
+
+## Team Charter
+
+### Shared Goals
+- 1
+- 2
+- 3
+- 4
+- 5
+
+### Team Communication Channels
+
+### Communication Procedures
+
+### Meeting Schedule
+
+### Meeting Coordination
+
+### Roles and Responsibilities
+
+### Team Coordination & Accountability
+
+### Conflict Recognition & Resolution
+
 
 
