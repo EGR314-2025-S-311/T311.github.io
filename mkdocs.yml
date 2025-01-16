@@ -1,5 +1,5 @@
-site_name: EGR314 Report Template
-site_url: https://embedded-systems-design.github.io/template_report
+site_name: EGR314 Team 311 Report
+site_url: https://T311.github.io/template_report
 repo_url: https://github.com/embedded-systems-design/template_report
 edit_uri: edit/main/docs/
 theme:
@@ -59,7 +59,7 @@ extra_javascript:
 not_in_nav: |
   static
   
-copyright: "Copyright &copy; 2024 team-name-here"
+copyright: "Copyright &copy; 2024 Team 311"
 
 extra:
   generator: false
