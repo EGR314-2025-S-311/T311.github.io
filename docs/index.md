@@ -30,12 +30,13 @@ title: Team Charter & Organization
 ### Team Communication Channels
 
 _Table 1: Team Member Communication Modes_
-| Name | First Choice Communiation | Second Choice Communication | Third Choice Communication |
+
+| Name | First Choice Communication | Second Choice Communication | Third Choice Communication |
 | ------------- | ------------- | -------------------------------| ---------------------------|
-| Shon Ha  | Messages  | Phone | Discord |
-| Maximus Mathews | Messages  | Discord | Zoom |
-| Shelton Larance | Discord | Messages | Zoom |
-| Rohan Fernandez | Messages | Discord | Email |
+| Shon Ha  | Messenger | Phone | Discord |
+| Maximus Mathews | Messenger  | Discord | Zoom |
+| Shelton Larance | Discord | Messenger | Zoom |
+| Rohan Fernandez | Messenger | Discord | Email |
 
 
 
