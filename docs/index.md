@@ -18,33 +18,25 @@ title: Team Charter & Organization
 
 ## Product Mission Statement
 
-## Team Charter
-
-### Shared Goals
+## Shared Goals
 - 1
 - 2
 - 3
 - 4
 - 5
 
+## Team Charter
+
 ### Team Communication Channels
+
+_Table 1: Team Member Communication Modes_
 | Name | First Choice Communiation | Second Choice Communication | Third Choice Communication |
 | ------------- | ------------- | -------------------------------| ---------------------------|
 | Shon Ha  | Messages  | Phone | Discord |
 | Maximus Mathews | Messages  | Discord | Zoom |
 | Shelton Larance | Discord | Messages | Zoom |
 | Rohan Fernandez | Messages | Discord | Email |
-### Communication Procedures
 
-### Meeting Schedule
-
-### Meeting Coordination
-
-### Roles and Responsibilities
-
-### Team Coordination & Accountability
-
-### Conflict Recognition & Resolution
 
 
 
