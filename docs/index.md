@@ -19,11 +19,16 @@ title: Team Charter & Organization
 ## Product Mission Statement
 
 ## Shared Goals
-- 1
-- 2
-- 3
-- 4
-- 5
+-Foster open communication within the team to encourage new ideas and provide feedback for one another.
+
+-Efficiently manage time and resources to maximize the outcomes of the final product.
+
+-Focusing on delivering high quality work to exceed expectations and demonstrate the team's knowledge to others.
+
+-Ensure each team member is in agreement on each deliverable prior to submission, ensuring consistent work throughout the entirety of the project.
+
+-Develop a unique and innovative solution that demonstrates a scientific/engineering concept through an interactive, physical device.
+
 
 ## Team Charter
 
