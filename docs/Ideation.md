@@ -9,7 +9,7 @@ The goal of the team's exhibit is to demonstrate atleast one STEM-based concept 
 ### Target Audience
 The prototype will be demonstrated at the Innovation Showcase, with the intended audience being for ASU alumni, industry professionals, and other ASU students. The target audience is intended for students K-12 interested in learning about science, technology, engineering, or math. The goal is to inspire new generations and foster curiousity about STEM fields through an interactive experience that highlights innovation.
 ## Ideation
-
+The team performed a product brainstorm to generate 100 ideas on possible products for the project. The team considered durability, safety, and comfort when generating ideas. The team used Padlet to collaborate and generate the ideas. After the 100 ideas were generated, the team grouped ideas thematically, ranking top ideas and combining ideas together to possibly generate new ones. Below are pictures from the brainstorming session along with the grouping process. 
 ### Brainstorming
 
 ### Sort, Rank, Group
