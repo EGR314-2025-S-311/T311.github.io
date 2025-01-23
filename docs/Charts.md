@@ -2,40 +2,19 @@
 title: Ideation and Concept Generation
 ---
 
+## Background Information
 
-``` mermaid
-graph LR
-  A[Start] --> B{Error?};
-  B -->|Yes| C[Hmm...];
-  C --> D[Debug];
-  D --> B;
-  B ---->|No| E[Yay!];
-```
+### Exhibit Goals
+The goal of the team's exhibit is to demonstrate atleast one STEM-based concept in an interactive, web-enabled, physical device. This will require describing how the team's prototype functions along with focusing on the viewer's attention with interactive displays and buttons. The exhibit must also demonstrate a physical action, where pressing the button will activate the device. Another exhibit goal involves engaging the viewer with self-testing and focusing on their attention. This will allow viewers to test their knowledge with the prototype. The prototype must consist of atleast four subsystems, with atleast one individual functionality, microcontroller, 3.3V Switching regulator, and in circuit programming circuitry.
+### Target Audience
+The prototype will be demonstrated at the Innovation Showcase, with the intended audience being for ASU alumni, industry professionals, and other ASU students. The target audience is intended for students K-12 interested in learning about science, technology, engineering, or math. The goal is to inspire new generations and foster curiousity about STEM fields through an interactive experience that highlights innovation.
+## Ideation
 
-``` mermaid
-sequenceDiagram
-  autonumber
-  Alice->>John: Hello John, how are you?
-  loop Healthcheck
-      John->>John: Fight against hypochondria
-  end
-  Note right of John: Rational thoughts!
-  John-->>Alice: Great!
-  John->>Bob: How about you?
-  Bob-->>John: Jolly good!
-```
+### Brainstorming
 
+### Sort, Rank, Group
 
-``` mermaid
-stateDiagram-v2
-  state fork_state <<fork>>
-    [*] --> fork_state
-    fork_state --> State2
-    fork_state --> State3
+## Concept Generation
 
-    state join_state <<join>>
-    State2 --> join_state
-    State3 --> join_state
-    join_state --> State4
-    State4 --> [*]
-```
+## Presentation
+
