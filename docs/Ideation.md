@@ -11,7 +11,7 @@ The prototype will be demonstrated at the Innovation Showcase, with the intended
 ## Ideation
 The team performed a product brainstorm to generate 100 ideas on possible products for the project. The team considered durability, safety, and comfort when generating ideas. The team used Padlet to collaborate and generate the ideas. After the 100 ideas were generated, the team grouped ideas thematically, ranking top ideas and combining ideas together to possibly generate new ones. Below are pictures from the brainstorming session along with the grouping process. 
 ### Brainstorming
-<images/Screenshot 2025-01-25 202248.png>
+
 ### Sort, Rank, Group
 
 ## Concept Generation
