@@ -23,5 +23,6 @@ Our motor-controlled solar panel aims to create an engaging and educational expe
 Since this will be handled by many students of varying age groups, safety is one of our top priorities. In case something goes wacky with the motors we will ensure all software is bug-free and safe for the public to utilize to its fullest potential. This device will also be made to be durable so it can be picked up and held by younger members. Also, in case of accidental roughhousing, the device will still be functional so that everyone in the museum will still get to view and collaborate with this cool project. As far as breaking this project into manageable groups, it will be split among the four team members. The categories are as follows. The motor, the sensors, and solar panels, the user interface including the OLED and button functionality, and the power source and WI-FI capability. This is split in a way so that each member has an equal and fair amount of work to handle throughout the semester. 
 
 <img src="https://raw.githubusercontent.com/EGR314-2025-S-311/T311.github.io/refs/heads/main/images/Screenshot%202025-01-25%20224655.png" alt="Sort, Rank, Group">
+
 ## Presentation
 
