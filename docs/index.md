@@ -17,7 +17,7 @@ title: Team Charter & Organization
 - Instructor: Kevin Nichols
 
 ## Product Mission Statement
-**_Our goal is to create a product that demonstrates an aspect of STEM in an engaging manner so that K-12 students will learn about and become more interested in such topics._**
+**_Our mission is to spark curiosity and excitement for STEM by creating an innovative, web-interactive device that not only captivates students but transforms complex concepts into a fun, hands-on experience._**
 
 ## Shared Goals
 -Foster open communication within the team to encourage new ideas and provide feedback for one another.
