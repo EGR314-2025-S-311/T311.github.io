@@ -14,7 +14,7 @@ The team performed a product brainstorm to generate 100 ideas on possible produc
 <img src="https://github.com/EGR314-2025-S-311/T311.github.io/blob/f7574f4e6818c29aa3af085b230e23f26435be9d/docs/static/Screenshot%202025-01-25%20202248.png" alt="100 Brainstorm Ideas">
 
 ### Sort, Rank, Group
-<img src="https://github.com/EGR314-2025-S-311/T311.github.io/blob/main/images/Screenshot%202025-01-25%20213429.png" alt="Sort, Rank, Group">
+<img src="https://raw.githubusercontent.com/EGR314-2025-S-311/T311.github.io/refs/heads/main/images/Screenshot%202025-01-25%20213429.png" alt="Sort, Rank, Group">
 
 ## Concept Generation
 
