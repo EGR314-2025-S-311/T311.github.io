@@ -26,6 +26,15 @@ Since this will be handled by many students of varying age groups, safety is one
 
 ## Presentation
 
+<iframe width="560" height="315" 
+    src="https://www.youtube.com/embed/1WfjeSirecg?si=5HipP5dahEDLvnOG" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen>
+</iframe>
+
 [![Ideation and Concept Generation](https://img.youtube.com/vi/1WfjeSirecg/hqdefault.jpg)](https://www.youtube.com/embed/1WfjeSirecg?si=0hi1BdnnKwseflaB)
 
 Youtube Link: https://www.youtube.com/watch?v=1WfjeSirecg 
