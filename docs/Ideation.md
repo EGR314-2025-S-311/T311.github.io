@@ -26,3 +26,6 @@ Since this will be handled by many students of varying age groups, safety is one
 
 ## Presentation
 
+[![Ideation and Concept Generation](https://img.youtube.com/vi/1WfjeSirecg/default.jpg)](https://www.youtube.com/embed/1WfjeSirecg?si=0hi1BdnnKwseflaB)
+
+Youtube Link: https://www.youtube.com/watch?v=1WfjeSirecg 
