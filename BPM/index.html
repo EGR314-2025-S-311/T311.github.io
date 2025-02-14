@@ -92,6 +92,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#part-3-message-types" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -364,6 +369,17 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    BPM
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -373,6 +389,30 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#part-3-message-types" class="md-nav__link">
+    Part 3: Message Types
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -477,6 +517,21 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#part-3-message-types" class="md-nav__link">
+    Part 3: Message Types
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -500,7 +555,65 @@
 
   <h1>BPM</h1>
 
-
+<h2 id="part-3-message-types">Part 3: Message Types</h2>
+<table>
+<thead>
+<tr>
+<th>Message Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1. Light Level and Voltage</td>
+<td>13 Bytes</td>
+</tr>
+<tr>
+<td>2. Button - Digital Signal</td>
+<td>1 byte for all 4 buttons (each has 2 bits for 0 and 1)</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Message Type 1 Definitions</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bytes 1 - 2 (uint8_t)</td>
+<td>Light Level with a space - "L "</td>
+</tr>
+<tr>
+<td>Bytes 3-7 (uint8_t)</td>
+<td>Light Level Reading - "XXXX"</td>
+</tr>
+<tr>
+<td>Bytes 8-9 (uint8_t)</td>
+<td>Voltage with a space " V"</td>
+</tr>
+<tr>
+<td>Bytes 10-12 (uint8_t)</td>
+<td>Voltage Level Reading  " X.X"</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Message Type 2 Definitions</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bytes 13-14 (uint8_t)</td>
+<td>Space with a byte with data of the all Button readings</td>
+</tr>
+</tbody>
+</table>
 
 
 
