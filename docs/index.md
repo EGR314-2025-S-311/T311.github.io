@@ -30,6 +30,9 @@ title: Team Charter & Organization
 
 -Develop a unique and innovative solution that demonstrates a scientific/engineering concept through an interactive, physical device.
 
+### Team Charter Statement
+
+**Our team is committed to fostering open communication, efficiently managing time and resources, ensuring high-quality work, aligning on deliverables, and developing an innovative interactive device that demonstrates a scientific or engineering concept.**
 
 ## Team Charter
 
