@@ -31,3 +31,9 @@ _Table 1: Team Member Communication Modes_
 | Maximus Mathews | Messenger  | Discord | Zoom |
 | Shelton Larance | Discord | Messenger | Zoom |
 | Rohan Fernandez | Messenger | Discord | Email |
+
+### Meeting Schedule
+
+- Tuesdays/Thursdays 3:00-5:00
+- Fridays 2:00-5:00
+- Saturdays/Sundays OPEN SCHEDULE
