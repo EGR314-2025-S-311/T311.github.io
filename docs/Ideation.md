@@ -57,6 +57,6 @@ Wi-Fi connectivity plays a key role in this project, allowing students to intera
     allowfullscreen>
 </iframe>
 
-[![Ideation and Concept Generation](https://img.youtube.com/vi/1WfjeSirecg/hqdefault.jpg)](https://www.youtube.com/embed/1WfjeSirecg?si=0hi1BdnnKwseflaB)
+
 
 Youtube Link: https://www.youtube.com/watch?v=1WfjeSirecg 
