@@ -13,26 +13,32 @@ Title: Block Diagram, Process Diagram, and Message Structure
 
 | Message Type                              | Description                                                      |
 | ----------------------------------------- | ---------------------------------------------------------------- |
-| 1. Light Level and Voltage                | 13 Bytes                                                         |
-| 2. Button - Digital Signal                | 1 byte for all 4 buttons (each has 2 bits for 0 and 1)           |
-| 3. Wifi Toggle - Auto/Manual              | 1 byte for toggling between Auto and Manual mode                 | 
+| 1. Wifi Toggle - Auto/Manual              | 1 byte for toggling between Auto and Manual mode                 | 
+| 2. Light Level and Voltage                | 13 Bytes                                                         |
+| 3. Button - Digital Signal                | 1 byte for all 4 buttons (each has 2 bits for 0 and 1)           |
 | 4. Unique Identifier                      | 4 bytes for identifing the message to be our team's              | 
 
 | Message Type 1 Definitions                |                                                                  |
 | ----------------------------------------- | ---------------------------------------------------------------- |
-| Bytes 1 - 2 (uint8_t)                     | Light Level with a space - "L "                                  |
-| Bytes 3-7 (float)                         | Light Level Reading - "XXXX"                                     |
-| Bytes 8-9 (uint8_t)                       | Voltage with a space " V"                                        |
-| Bytes 10-12 (float)                       | Voltage Level Reading  " X.X"                                    |
+| Bytes 1 (uint8_t)                        | Automatic or Manual - "A" or "M"                                 |
 
 | Message Type 2 Definitions                |                                                                  |
 | ----------------------------------------- | ---------------------------------------------------------------- |
-| Bytes 13-14 (uint8_t)                     | Space with a byte with data of the all Button readings           |
+| Bytes 2-3 (uint8_t)                     | Light Level with a space - "L1"                                  |
+| Bytes 4-8 (float)                         | Light Level Reading - "XXXX"                                     |
+| Bytes 9-10 (uint8_t)                     | Light Level with a space - "L2"                                  |
+| Bytes 11-14 (float)                         | Light Level Reading - "XXXX"                                     |
+| Bytes 15-16 (uint8_t)                     | Light Level with a space - "L3"                                  |
+| Bytes 17-20 (float)                         | Light Level Reading - "XXXX"                                     |
+| Bytes 21-22 (uint8_t)                     | Light Level with a space - "L4"                                  |
+| Bytes 23-26 (float)                         | Light Level Reading - "XXXX"                                     |
+| Bytes 27-28 (uint8_t)                       | Voltage with a space " V"                                        |
+| Bytes 29-32 (float)                       | Voltage Level Reading  " X.X"                                    |
 
 | Message Type 3 Definitions                |                                                                  |
 | ----------------------------------------- | ---------------------------------------------------------------- |
-| Bytes 15 (uint8_t)                        | Automatic or Manual - "A" or "M"                                 |
+| Bytes 33 (uint8_t)                     | Space with a byte with data of the all Button readings           |
 
 | Message Type 4 Definitions                |                                                                  |
 | ----------------------------------------- | ---------------------------------------------------------------- |
-| Bytes 16-19 (uint8_t)                      | Unique Identifier - "TEAM311"                                   |
+| Bytes 34-37 (uint8_t)                      | Unique Identifier - "TEAM311"                                   |
