@@ -605,6 +605,14 @@
 <td>2. Button - Digital Signal</td>
 <td>1 byte for all 4 buttons (each has 2 bits for 0 and 1)</td>
 </tr>
+<tr>
+<td>3. Wifi Toggle - Auto/Manual</td>
+<td>1 byte for toggling between Auto and Manual mode</td>
+</tr>
+<tr>
+<td>4. Unique Identifier</td>
+<td>4 bytes for identifing the message to be our team's</td>
+</tr>
 </tbody>
 </table>
 <table>
@@ -620,7 +628,7 @@
 <td>Light Level with a space - "L "</td>
 </tr>
 <tr>
-<td>Bytes 3-7 (uint8_t)</td>
+<td>Bytes 3-7 (float)</td>
 <td>Light Level Reading - "XXXX"</td>
 </tr>
 <tr>
@@ -628,7 +636,7 @@
 <td>Voltage with a space " V"</td>
 </tr>
 <tr>
-<td>Bytes 10-12 (uint8_t)</td>
+<td>Bytes 10-12 (float)</td>
 <td>Voltage Level Reading  " X.X"</td>
 </tr>
 </tbody>
@@ -644,6 +652,34 @@
 <tr>
 <td>Bytes 13-14 (uint8_t)</td>
 <td>Space with a byte with data of the all Button readings</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Message Type 3 Definitions</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bytes 15 (uint8_t)</td>
+<td>Automatic or Manual - "A" or "M"</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Message Type 4 Definitions</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bytes 16-19 (uint8_t)</td>
+<td>Unique Identifier - "TEAM311"</td>
 </tr>
 </tbody>
 </table>
