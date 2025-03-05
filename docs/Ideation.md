@@ -11,17 +11,16 @@ The prototype will be demonstrated at the Innovation Showcase, with the intended
 ## Ideation
 The team performed a product brainstorm to generate 100 ideas on possible products for the project. The team considered durability, safety, and comfort when generating ideas. The team used Padlet to collaborate and generate the ideas. After the 100 ideas were generated, the team grouped ideas thematically, ranking top ideas and combining ideas together to possibly generate new ones. Below are pictures from the brainstorming session along with the grouping process. 
 ### Brainstorming
-<img width="1096" alt="image" src="https://github.com/user-attachments/assets/b3b111e4-cb98-4024-ad08-9a5262f04a06" />
 
-<!-- <img src="https://raw.githubusercontent.com/EGR314-2025-S-311/T311.github.io/refs/heads/main/images/Screenshot%202025-01-25%20202248.png" alt="100 Brainstorm Ideas"> -->
+<<img src="https://raw.githubusercontent.com/EGR314-2025-S-311/T311.github.io/refs/heads/main/images/BRAINSTORM_100.png" alt="100 Brainstorm Ideas">
 
 
 ### Sort, Rank, Group
-<img src="https://raw.githubusercontent.com/EGR314-2025-S-311/T311.github.io/refs/heads/main/images/Screenshot%202025-01-25%20213429.png" alt="Sort, Rank, Group">
+<img src="https://raw.githubusercontent.com/EGR314-2025-S-311/T311.github.io/refs/heads/main/images/SORT_GROUP_RANK.png" alt="Sort, Rank, Group">
 
 ## Concept Generation
 
-Students need an engaging/creative way to learn STEAM-based concepts to foster learning and inspire creativity. Using the brainstorming processes above, the team decided to focus on solar power, a sustainable energy practive that benefits our environment. Combining ideas generated, we came up with a solar tracker, a solar panel capable of adjusting itself automatically in response to different light levels radiating from the sun.
+Students need an engaging/creative way to learn STEAM-based concepts to foster learning and inspire creativity. Using the brainstorming processes above, the team decided to focus on solar power, a sustainable energy practive that benefits our environment. Combining the ideas generated as highlighted in red, we came up with a solar tracker, a solar panel capable of adjusting itself automatically in response to different light levels radiating from the sun.
 Our motor-controlled solar panel is designed to create a fun and educational experience for museum visitors, especially students from K-12. With user-controlled buttons, students can directly interact with the device, making it easier to understand solar energy and how panels track sunlight. The combination of optical and power sensors with an OLED display provides real-time brightness and power level readings, helping students visualize how solar energy is captured. To enhance accessibility, Wi-Fi functionality allows users to control the panel remotely using their mobile devices, offering an alternative to the physical buttons. This mix of interactive features ensures an engaging learning experience that accommodates visitors of different age groups and technical backgrounds. 
 
 To divide the workload fairly, the project is split among four team members, each handling a crucial part of the system. One teammate is responsible for the stepper motor, ensuring smooth and precise movement of the solar panels. Another will work on the sensors and solar panels, ensuring they function efficiently and integrate well. The third teammate will develop the human-machine interface (HMI), working on the OLED display and button controls to make them simple and intuitive. Lastly, the fourth member will focus on the Wi-Fi connectivity, making sure the mobile interface communicates effectively with the hardware. This balanced division of tasks ensures that every aspect of the project is handled effectively while promoting teamwork. These four subsystems will all communicate over UART through a daisy chain network.
