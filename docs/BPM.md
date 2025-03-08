@@ -7,7 +7,8 @@ Title: Block Diagram, Process Diagram, and Message Structure
 [Block Diagram Download](https://github.com/EGR314-2025-S-311/T311.github.io/blob/main/images/Team%20Block%20Diagram.pdf)
 
 ## Part 2: Sequence Diagram
-<img src="https://github.com/EGR314-2025-S-311/T311.github.io/blob/main/images/_Sequence%20Diagram%20.drawio.png?raw=true">
+<img width="468" alt="image" src="https://github.com/user-attachments/assets/06cad9ed-694c-4612-8d99-c81a206fdac9" />
+
 
 ## Part 3: Message Types
 
