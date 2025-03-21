@@ -37,14 +37,14 @@ Title: Block Diagram, Process Diagram, and Message Structure
 
 | Message Type 3 Definitions |                      |
 |----------------------------|----------------------|
-| Bytes 27-28 (char)                       | Voltage with a space " V"                                        |
-| Bytes 29-32 (float)                       | Voltage Level Reading  " X.X"                                    |
+| Bytes 27 (char)                       | Voltage with a space "V"                                        |
+| Bytes 28-31 (float)                       | Voltage Level Reading  "X.X"                                    |
 
 | Message Type 4 Definitions                |                                                                  |
 | ----------------------------------------- | ---------------------------------------------------------------- |
-| Bytes 33 (uint8_t)                     | byte to control motor turning left          |
-| Bytes 34 (uint8_t)  | byte to control motor turning right |
+| Bytes 32 (uint8_t)                     | byte to control motor turning left          |
+| Bytes 33 (uint8_t)  | byte to control motor turning right |
 
 | Message Type 5 Definitions                |                                                                  |
 | ----------------------------------------- | ---------------------------------------------------------------- |
-| Bytes 35-38 (char)                      | Unique Identifier - "TEAM311"                                   |
+| Bytes 34-37 (char)                      | Unique Identifier - "TEAM311"                                   |
