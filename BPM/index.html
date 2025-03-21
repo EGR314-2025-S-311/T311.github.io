@@ -602,15 +602,19 @@
 <td>1 byte for toggling between Auto and Manual mode</td>
 </tr>
 <tr>
-<td>2. Light Level and Voltage</td>
-<td>13 Bytes</td>
+<td>2. Light Level</td>
+<td>24 Bytes (6 for each sensor with 2 as identifier and 4 as readings)</td>
 </tr>
 <tr>
-<td>3. Button - Digital Signal</td>
-<td>1 byte for all 4 buttons (each has 2 bits for 0 and 1)</td>
+<td>3. Voltage Sensor</td>
+<td>5 bytes  (1 for identifier and 4 as readings)</td>
 </tr>
 <tr>
-<td>4. Unique Identifier</td>
+<td>4. Button - Digital Signal</td>
+<td>2 bytes for 2 buttons to control stepper motor</td>
+</tr>
+<tr>
+<td>5. Unique Identifier</td>
 <td>4 bytes for identifing the message to be our team's</td>
 </tr>
 </tbody>
@@ -625,7 +629,7 @@
 <tbody>
 <tr>
 <td>Bytes 1 (uint8_t)</td>
-<td>Automatic or Manual - "A" or "M"</td>
+<td>Automatic or Manual - "0" or "1"</td>
 </tr>
 </tbody>
 </table>
@@ -638,7 +642,7 @@
 </thead>
 <tbody>
 <tr>
-<td>Bytes 2-3 (uint8_t)</td>
+<td>Bytes 2-3 (char)</td>
 <td>Light Level with a space - "L1"</td>
 </tr>
 <tr>
@@ -646,7 +650,7 @@
 <td>Light Level Reading - "XXXX"</td>
 </tr>
 <tr>
-<td>Bytes 9-10 (uint8_t)</td>
+<td>Bytes 9-10 (char)</td>
 <td>Light Level with a space - "L2"</td>
 </tr>
 <tr>
@@ -654,7 +658,7 @@
 <td>Light Level Reading - "XXXX"</td>
 </tr>
 <tr>
-<td>Bytes 15-16 (uint8_t)</td>
+<td>Bytes 15-16 (char)</td>
 <td>Light Level with a space - "L3"</td>
 </tr>
 <tr>
@@ -662,20 +666,12 @@
 <td>Light Level Reading - "XXXX"</td>
 </tr>
 <tr>
-<td>Bytes 21-22 (uint8_t)</td>
+<td>Bytes 21-22 (char)</td>
 <td>Light Level with a space - "L4"</td>
 </tr>
 <tr>
 <td>Bytes 23-26 (float)</td>
 <td>Light Level Reading - "XXXX"</td>
-</tr>
-<tr>
-<td>Bytes 27-28 (uint8_t)</td>
-<td>Voltage with a space " V"</td>
-</tr>
-<tr>
-<td>Bytes 29-32 (float)</td>
-<td>Voltage Level Reading  " X.X"</td>
 </tr>
 </tbody>
 </table>
@@ -688,8 +684,12 @@
 </thead>
 <tbody>
 <tr>
-<td>Bytes 33 (uint8_t)</td>
-<td>Space with a byte with data of the all Button readings</td>
+<td>Bytes 27-28 (char)</td>
+<td>Voltage with a space " V"</td>
+</tr>
+<tr>
+<td>Bytes 29-32 (float)</td>
+<td>Voltage Level Reading  " X.X"</td>
 </tr>
 </tbody>
 </table>
@@ -702,7 +702,25 @@
 </thead>
 <tbody>
 <tr>
-<td>Bytes 34-37 (uint8_t)</td>
+<td>Bytes 33 (uint8_t)</td>
+<td>byte to control motor turning left</td>
+</tr>
+<tr>
+<td>Bytes 34 (uint8_t)</td>
+<td>byte to control motor turning right</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Message Type 4 Definitions</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bytes 35-38 (char)</td>
 <td>Unique Identifier - "TEAM311"</td>
 </tr>
 </tbody>
