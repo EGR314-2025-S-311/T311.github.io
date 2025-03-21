@@ -45,6 +45,6 @@ Title: Block Diagram, Process Diagram, and Message Structure
 | Bytes 33 (uint8_t)                     | byte to control motor turning left          |
 | Bytes 34 (uint8_t)  | byte to control motor turning right |
 
-| Message Type 4 Definitions                |                                                                  |
+| Message Type 5 Definitions                |                                                                  |
 | ----------------------------------------- | ---------------------------------------------------------------- |
 | Bytes 35-38 (char)                      | Unique Identifier - "TEAM311"                                   |
