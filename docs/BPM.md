@@ -15,31 +15,36 @@ Title: Block Diagram, Process Diagram, and Message Structure
 | Message Type                              | Description                                                      |
 | ----------------------------------------- | ---------------------------------------------------------------- |
 | 1. Wifi Toggle - Auto/Manual              | 1 byte for toggling between Auto and Manual mode                 | 
-| 2. Light Level and Voltage                | 13 Bytes                                                         |
-| 3. Button - Digital Signal                | 1 byte for all 4 buttons (each has 2 bits for 0 and 1)           |
-| 4. Unique Identifier                      | 4 bytes for identifing the message to be our team's              | 
+| 2. Light Level                            | 24 Bytes (6 for each sensor with 2 as identifier and 4 as readings)                                      |
+| 3. Voltage Sensor                         | 5 bytes  (1 for identifier and 4 as readings)                                                     |
+| 4. Button - Digital Signal                | 2 bytes for 2 buttons to control stepper motor          |
+| 5. Unique Identifier                      | 4 bytes for identifing the message to be our team's              | 
 
 | Message Type 1 Definitions                |                                                                  |
 | ----------------------------------------- | ---------------------------------------------------------------- |
-| Bytes 1 (uint8_t)                        | Automatic or Manual - "A" or "M"                                 |
+| Bytes 1 (uint8_t)                        | Automatic or Manual - "0" or "1"                                 |
 
 | Message Type 2 Definitions                |                                                                  |
 | ----------------------------------------- | ---------------------------------------------------------------- |
-| Bytes 2-3 (uint8_t)                     | Light Level with a space - "L1"                                  |
+| Bytes 2-3 (char)                     | Light Level with a space - "L1"                                  |
 | Bytes 4-8 (float)                         | Light Level Reading - "XXXX"                                     |
-| Bytes 9-10 (uint8_t)                     | Light Level with a space - "L2"                                  |
+| Bytes 9-10 (char)                     | Light Level with a space - "L2"                                  |
 | Bytes 11-14 (float)                         | Light Level Reading - "XXXX"                                     |
-| Bytes 15-16 (uint8_t)                     | Light Level with a space - "L3"                                  |
+| Bytes 15-16 (char)                     | Light Level with a space - "L3"                                  |
 | Bytes 17-20 (float)                         | Light Level Reading - "XXXX"                                     |
-| Bytes 21-22 (uint8_t)                     | Light Level with a space - "L4"                                  |
+| Bytes 21-22 (char)                     | Light Level with a space - "L4"                                  |
 | Bytes 23-26 (float)                         | Light Level Reading - "XXXX"                                     |
-| Bytes 27-28 (uint8_t)                       | Voltage with a space " V"                                        |
-| Bytes 29-32 (float)                       | Voltage Level Reading  " X.X"                                    |
 
-| Message Type 3 Definitions                |                                                                  |
-| ----------------------------------------- | ---------------------------------------------------------------- |
-| Bytes 33 (uint8_t)                     | Space with a byte with data of the all Button readings           |
+| Message Type 3 Definitions |                      |
+|----------------------------|----------------------|
+| Bytes 27-28 (char)                       | Voltage with a space " V"                                        |
+| Bytes 29-32 (float)                       | Voltage Level Reading  " X.X"                                    |
 
 | Message Type 4 Definitions                |                                                                  |
 | ----------------------------------------- | ---------------------------------------------------------------- |
-| Bytes 34-37 (uint8_t)                      | Unique Identifier - "TEAM311"                                   |
+| Bytes 33 (uint8_t)                     | byte to control motor turning left          |
+| Bytes 34 (uint8_t)  | byte to control motor turning right |
+
+| Message Type 4 Definitions                |                                                                  |
+| ----------------------------------------- | ---------------------------------------------------------------- |
+| Bytes 35-38 (char)                      | Unique Identifier - "TEAM311"                                   |
