@@ -628,7 +628,11 @@
 </thead>
 <tbody>
 <tr>
-<td>Bytes 1 (uint8_t)</td>
+<td>Bytes 1 (char)</td>
+<td>Mode (M)</td>
+</tr>
+<tr>
+<td>Bytes 2 (uint8_t)</td>
 <td>Automatic or Manual - "0" or "1"</td>
 </tr>
 </tbody>
@@ -642,11 +646,11 @@
 </thead>
 <tbody>
 <tr>
-<td>Bytes 2-3 (char)</td>
+<td>Bytes 3-4 (char)</td>
 <td>Light Level with a space - "L1"</td>
 </tr>
 <tr>
-<td>Bytes 4-8 (float)</td>
+<td>Bytes 5-8 (float)</td>
 <td>Light Level Reading - "XXXX"</td>
 </tr>
 <tr>
@@ -702,11 +706,19 @@
 </thead>
 <tbody>
 <tr>
-<td>Bytes 32 (uint8_t)</td>
-<td>byte to control motor turning left</td>
+<td>Bytes 32 (char)</td>
+<td>button left (L)</td>
 </tr>
 <tr>
 <td>Bytes 33 (uint8_t)</td>
+<td>byte to control motor turning left</td>
+</tr>
+<tr>
+<td>Bytes 34 (char)</td>
+<td>button right (R)</td>
+</tr>
+<tr>
+<td>Bytes 35 (uint8_t)</td>
 <td>byte to control motor turning right</td>
 </tr>
 </tbody>
@@ -720,7 +732,7 @@
 </thead>
 <tbody>
 <tr>
-<td>Bytes 34-37 (char)</td>
+<td>Bytes 36-42 (char)</td>
 <td>Unique Identifier - "TEAM311"</td>
 </tr>
 </tbody>
