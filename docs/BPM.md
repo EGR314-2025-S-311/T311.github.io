@@ -22,12 +22,13 @@ Title: Block Diagram, Process Diagram, and Message Structure
 
 | Message Type 1 Definitions                |                                                                  |
 | ----------------------------------------- | ---------------------------------------------------------------- |
-| Bytes 1 (uint8_t)                        | Automatic or Manual - "0" or "1"                                 |
+| Bytes 1 (char)                        | Mode (M)                                 |
+| Bytes 2 (uint8_t)                        | Automatic or Manual - "0" or "1"                                 |
 
 | Message Type 2 Definitions                |                                                                  |
 | ----------------------------------------- | ---------------------------------------------------------------- |
-| Bytes 2-3 (char)                     | Light Level with a space - "L1"                                  |
-| Bytes 4-8 (float)                         | Light Level Reading - "XXXX"                                     |
+| Bytes 3-4 (char)                     | Light Level with a space - "L1"                                  |
+| Bytes 5-8 (float)                         | Light Level Reading - "XXXX"                                     |
 | Bytes 9-10 (char)                     | Light Level with a space - "L2"                                  |
 | Bytes 11-14 (float)                         | Light Level Reading - "XXXX"                                     |
 | Bytes 15-16 (char)                     | Light Level with a space - "L3"                                  |
@@ -42,9 +43,11 @@ Title: Block Diagram, Process Diagram, and Message Structure
 
 | Message Type 4 Definitions                |                                                                  |
 | ----------------------------------------- | ---------------------------------------------------------------- |
-| Bytes 32 (uint8_t)                     | byte to control motor turning left          |
-| Bytes 33 (uint8_t)  | byte to control motor turning right |
+| Bytes 32 (char)  | button left (L) |
+| Bytes 33 (uint8_t)                     | byte to control motor turning left          |
+| Bytes 34 (char)  | button right (R) |
+| Bytes 35 (uint8_t)  | byte to control motor turning right |
 
 | Message Type 5 Definitions                |                                                                  |
 | ----------------------------------------- | ---------------------------------------------------------------- |
-| Bytes 34-37 (char)                      | Unique Identifier - "TEAM311"                                   |
+| Bytes 36-42 (char)                      | Unique Identifier - "TEAM311"                                   |
