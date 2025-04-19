@@ -592,6 +592,36 @@
 <table>
 <thead>
 <tr>
+<th>Team Members</th>
+<th>Team IDs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Shon Ha</td>
+<td>h</td>
+</tr>
+<tr>
+<td>Maximus Mathews</td>
+<td>m</td>
+</tr>
+<tr>
+<td>Shelton Larance</td>
+<td>l</td>
+</tr>
+<tr>
+<td>Rohan Fernandez</td>
+<td>f</td>
+</tr>
+<tr>
+<td>Broadcast</td>
+<td>X</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
 <th>Message Type</th>
 <th>Description</th>
 </tr>
@@ -613,10 +643,6 @@
 <td>4. Button - Digital Signal</td>
 <td>2 bytes for 2 buttons to control stepper motor</td>
 </tr>
-<tr>
-<td>5. Unique Identifier</td>
-<td>4 bytes for identifing the message to be our team's</td>
-</tr>
 </tbody>
 </table>
 <table>
@@ -632,7 +658,7 @@
 <td>Mode (M)</td>
 </tr>
 <tr>
-<td>Bytes 2 (uint8_t)</td>
+<td>Bytes 2 (char)</td>
 <td>Automatic or Manual - "0" or "1"</td>
 </tr>
 </tbody>
@@ -650,7 +676,7 @@
 <td>Light Level with a space - "L1"</td>
 </tr>
 <tr>
-<td>Bytes 5-8 (float)</td>
+<td>Bytes 5-8 (char)</td>
 <td>Light Level Reading - "XXXX"</td>
 </tr>
 <tr>
@@ -658,7 +684,7 @@
 <td>Light Level with a space - "L2"</td>
 </tr>
 <tr>
-<td>Bytes 11-14 (float)</td>
+<td>Bytes 11-14 (char)</td>
 <td>Light Level Reading - "XXXX"</td>
 </tr>
 <tr>
@@ -666,7 +692,7 @@
 <td>Light Level with a space - "L3"</td>
 </tr>
 <tr>
-<td>Bytes 17-20 (float)</td>
+<td>Bytes 17-20 (char)</td>
 <td>Light Level Reading - "XXXX"</td>
 </tr>
 <tr>
@@ -674,7 +700,7 @@
 <td>Light Level with a space - "L4"</td>
 </tr>
 <tr>
-<td>Bytes 23-26 (float)</td>
+<td>Bytes 23-26 (char)</td>
 <td>Light Level Reading - "XXXX"</td>
 </tr>
 </tbody>
@@ -692,7 +718,7 @@
 <td>Voltage with a space "V"</td>
 </tr>
 <tr>
-<td>Bytes 28-31 (float)</td>
+<td>Bytes 28-31 (char)</td>
 <td>Voltage Level Reading  "X.X"</td>
 </tr>
 </tbody>
@@ -710,7 +736,7 @@
 <td>button left (L)</td>
 </tr>
 <tr>
-<td>Bytes 33 (uint8_t)</td>
+<td>Bytes 33 (char)</td>
 <td>byte to control motor turning left</td>
 </tr>
 <tr>
@@ -718,22 +744,8 @@
 <td>button right (R)</td>
 </tr>
 <tr>
-<td>Bytes 35 (uint8_t)</td>
+<td>Bytes 35 (char)</td>
 <td>byte to control motor turning right</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>Message Type 5 Definitions</th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Bytes 36-42 (char)</td>
-<td>Unique Identifier - "TEAM311"</td>
 </tr>
 </tbody>
 </table>
