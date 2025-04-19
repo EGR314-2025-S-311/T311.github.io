@@ -12,6 +12,11 @@ Title: Block Diagram, Process Diagram, and Message Structure
 
 ## Part 3: Message Types
 
+| Byte | Function |
+|----|-------|
+| AZ | Start |
+| YB | Stop  |
+
 | Team Members | Team IDs |
 |--------------|----------|
 | Shon Ha | h |
