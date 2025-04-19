@@ -12,42 +12,48 @@ Title: Block Diagram, Process Diagram, and Message Structure
 
 ## Part 3: Message Types
 
+| Team Members | Team IDs |
+|--------------|----------|
+| Shon Ha | h |
+| Maximus Mathews | m |
+| Shelton Larance | l |
+| Rohan Fernandez | f |
+| Broadcast | X |
+
+
 | Message Type                              | Description                                                      |
 | ----------------------------------------- | ---------------------------------------------------------------- |
 | 1. Wifi Toggle - Auto/Manual              | 1 byte for toggling between Auto and Manual mode                 | 
 | 2. Light Level                            | 24 Bytes (6 for each sensor with 2 as identifier and 4 as readings)                                      |
 | 3. Voltage Sensor                         | 5 bytes  (1 for identifier and 4 as readings)                                                     |
 | 4. Button - Digital Signal                | 2 bytes for 2 buttons to control stepper motor          |
-| 5. Unique Identifier                      | 4 bytes for identifing the message to be our team's              | 
 
 | Message Type 1 Definitions                |                                                                  |
 | ----------------------------------------- | ---------------------------------------------------------------- |
 | Bytes 1 (char)                        | Mode (M)                                 |
-| Bytes 2 (uint8_t)                        | Automatic or Manual - "0" or "1"                                 |
+| Bytes 2 (char)                        | Automatic or Manual - "0" or "1"                                 |
 
 | Message Type 2 Definitions                |                                                                  |
 | ----------------------------------------- | ---------------------------------------------------------------- |
 | Bytes 3-4 (char)                     | Light Level with a space - "L1"                                  |
-| Bytes 5-8 (float)                         | Light Level Reading - "XXXX"                                     |
+| Bytes 5-8 (char)                         | Light Level Reading - "XXXX"                                     |
 | Bytes 9-10 (char)                     | Light Level with a space - "L2"                                  |
-| Bytes 11-14 (float)                         | Light Level Reading - "XXXX"                                     |
+| Bytes 11-14 (char)                         | Light Level Reading - "XXXX"                                     |
 | Bytes 15-16 (char)                     | Light Level with a space - "L3"                                  |
-| Bytes 17-20 (float)                         | Light Level Reading - "XXXX"                                     |
+| Bytes 17-20 (char)                         | Light Level Reading - "XXXX"                                     |
 | Bytes 21-22 (char)                     | Light Level with a space - "L4"                                  |
-| Bytes 23-26 (float)                         | Light Level Reading - "XXXX"                                     |
+| Bytes 23-26 (char)                         | Light Level Reading - "XXXX"                                     |
 
 | Message Type 3 Definitions |                      |
 |----------------------------|----------------------|
 | Bytes 27 (char)                       | Voltage with a space "V"                                        |
-| Bytes 28-31 (float)                       | Voltage Level Reading  "X.X"                                    |
+| Bytes 28-31 (char)                       | Voltage Level Reading  "X.X"                                    |
 
 | Message Type 4 Definitions                |                                                                  |
 | ----------------------------------------- | ---------------------------------------------------------------- |
 | Bytes 32 (char)  | button left (L) |
-| Bytes 33 (uint8_t)                     | byte to control motor turning left          |
+| Bytes 33 (char)                     | byte to control motor turning left          |
 | Bytes 34 (char)  | button right (R) |
-| Bytes 35 (uint8_t)  | byte to control motor turning right |
+| Bytes 35 (char)  | byte to control motor turning right |
 
-| Message Type 5 Definitions                |                                                                  |
-| ----------------------------------------- | ---------------------------------------------------------------- |
-| Bytes 36-42 (char)                      | Unique Identifier - "TEAM311"                                   |
+
