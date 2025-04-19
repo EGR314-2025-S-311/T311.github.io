@@ -61,4 +61,12 @@ Title: Block Diagram, Process Diagram, and Message Structure
 | Bytes 34 (char)  | button right (R) |
 | Bytes 35 (char)  | byte to control motor turning right |
 
+| **Message Type**          | **Message ID Type: Char** | **Rohan HMI ID: f**                        | **Maximus Sensor ID: m**          | **Shon Motor ID: h**                                             | **Shelton MQTT ID: l**                  |
+|---------------------------|---------------------------|--------------------------------------------|-----------------------------------|------------------------------------------------------------------|-----------------------------------------|
+| Mode Toggle               | M                         | R (activates button toggle to control motor) | R (pass down to motor)            | R (Sets motor into manual control using buttons)                 | S (mqtt topic: /EGR314/TEAM311/Mode)    |
+| Light Levels              | S1-S4                     | -                                          | S (sends light data to motor)     | R (using data, turns motor in direction with highest light level) | -                                       |
+| Voltage Sensors           | V                         | R (Display on HMI)                         | S (voltage data from solar panel) | R  (pass down to MQTT)                                           | R (mqtt topic: /EGR314/TEAM311/Voltage) |
+| Button-Digital Signal     | L & R                     | S                                          | R (pass down to motor)            | R (manual control using buttons)                                 | -                                       |
+
+
 
