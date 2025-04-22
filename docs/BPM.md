@@ -39,7 +39,7 @@ Title: Block Diagram, Process Diagram, and Message Structure
 
 | Message Type 2 Definitions                |                                                                  |
 | ----------------------------------------- | ---------------------------------------------------------------- |
-| Bytes 3-4 (char)                     | Light Level with a space - "L1"                                  |
+| Bytes 3-4 (char)                     | Light Level with a space - "L"                                  |
 | Bytes 5-8 (char)                         | Light Level Reading - "XXXX"                                     |
 
 
@@ -54,8 +54,8 @@ Title: Block Diagram, Process Diagram, and Message Structure
 | **Message Type**          | **Message ID Type: Char** | **Rohan HMI ID: f**                        | **Maximus Sensor ID: m**          | **Shon Motor ID: h**                                             | **Shelton MQTT ID: l**                  |
 |---------------------------|---------------------------|--------------------------------------------|-----------------------------------|------------------------------------------------------------------|-----------------------------------------|
 | Mode Toggle               | M                         | R (activates button toggle to control motor) | -            | R (Sets motor into manual control using buttons)                 | S (mqtt topic: /EGR314/TEAM311/Mode)    |
-| Light Levels              | S                    | (recieves and diesplays light level to screen)                                        | S (sends light data to motor)     | R (using data, turns motor in direction with highest light level) | -                                       |  (recieves and diesplays light level to MQTT)    
-| Button-Digital Signal     | L & R                     | S                                          | -            | R (manual control using buttons)                                 | -                          |
+| Light Levels              | S                    | S (recieves and diesplays light level to screen)                                        | S (sends light data to motor)     | R (using data, turns motor in direction with highest light level) | S (recieves and diesplays light level to screen)  |     
+| Button-Digital Signal     | L & R                     |                                           | -            | R (manual control using buttons)                                 | -                          |
 
 
 
