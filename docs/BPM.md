@@ -41,12 +41,7 @@ Title: Block Diagram, Process Diagram, and Message Structure
 | ----------------------------------------- | ---------------------------------------------------------------- |
 | Bytes 3-4 (char)                     | Light Level with a space - "L1"                                  |
 | Bytes 5-8 (char)                         | Light Level Reading - "XXXX"                                     |
-| Bytes 9-10 (char)                     | Light Level with a space - "L2"                                  |
-| Bytes 11-14 (char)                         | Light Level Reading - "XXXX"                                     |
-| Bytes 15-16 (char)                     | Light Level with a space - "L3"                                  |
-| Bytes 17-20 (char)                         | Light Level Reading - "XXXX"                                     |
-| Bytes 21-22 (char)                     | Light Level with a space - "L4"                                  |
-| Bytes 23-26 (char)                         | Light Level Reading - "XXXX"                                     |
+
 
 
 | Message Type44 Definitions                |                                                                  |
@@ -59,7 +54,7 @@ Title: Block Diagram, Process Diagram, and Message Structure
 | **Message Type**          | **Message ID Type: Char** | **Rohan HMI ID: f**                        | **Maximus Sensor ID: m**          | **Shon Motor ID: h**                                             | **Shelton MQTT ID: l**                  |
 |---------------------------|---------------------------|--------------------------------------------|-----------------------------------|------------------------------------------------------------------|-----------------------------------------|
 | Mode Toggle               | M                         | R (activates button toggle to control motor) | -            | R (Sets motor into manual control using buttons)                 | S (mqtt topic: /EGR314/TEAM311/Mode)    |
-| Light Levels              | S1-S4                     | -                                          | S (sends light data to motor)     | R (using data, turns motor in direction with highest light level) | -                                       |
+| Light Levels              | S                    | (recieves and diesplays light level to screen)                                        | S (sends light data to motor)     | R (using data, turns motor in direction with highest light level) | -                                       |  (recieves and diesplays light level to MQTT)    
 | Button-Digital Signal     | L & R                     | S                                          | -            | R (manual control using buttons)                                 | -                          |
 
 
