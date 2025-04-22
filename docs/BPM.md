@@ -60,8 +60,7 @@ Title: Block Diagram, Process Diagram, and Message Structure
 |---------------------------|---------------------------|--------------------------------------------|-----------------------------------|------------------------------------------------------------------|-----------------------------------------|
 | Mode Toggle               | M                         | R (activates button toggle to control motor) | -            | R (Sets motor into manual control using buttons)                 | S (mqtt topic: /EGR314/TEAM311/Mode)    |
 | Light Levels              | S1-S4                     | -                                          | S (sends light data to motor)     | R (using data, turns motor in direction with highest light level) | -                                       |
-
-| Button-Digital Signal     | L & R                     | S                                          | -            | R (manual control using buttons)                                 | -                                       |
+| Button-Digital Signal     | L & R                     | S                                          | -            | R (manual control using buttons)                                 | -                          |
 
 
 
