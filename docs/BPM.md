@@ -30,8 +30,7 @@ Title: Block Diagram, Process Diagram, and Message Structure
 | ----------------------------------------- | ---------------------------------------------------------------- |
 | 1. Wifi Toggle - Auto/Manual              | 1 byte for toggling between Auto and Manual mode                 | 
 | 2. Light Level                            | 24 Bytes (6 for each sensor with 2 as identifier and 4 as readings)                                      |
-| 3. Voltage Sensor                         | 5 bytes  (1 for identifier and 4 as readings)                                                     |
-| 4. Button - Digital Signal                | 2 bytes for 2 buttons to control stepper motor          |
+| 3. Button - Digital Signal                | 2 bytes for 2 buttons to control stepper motor          |
 
 | Message Type 1 Definitions                |                                                                  |
 | ----------------------------------------- | ---------------------------------------------------------------- |
@@ -49,12 +48,8 @@ Title: Block Diagram, Process Diagram, and Message Structure
 | Bytes 21-22 (char)                     | Light Level with a space - "L4"                                  |
 | Bytes 23-26 (char)                         | Light Level Reading - "XXXX"                                     |
 
-| Message Type 3 Definitions |                      |
-|----------------------------|----------------------|
-| Bytes 27 (char)                       | Voltage with a space "V"                                        |
-| Bytes 28-31 (char)                       | Voltage Level Reading  "X.X"                                    |
 
-| Message Type 4 Definitions                |                                                                  |
+| Message Type44 Definitions                |                                                                  |
 | ----------------------------------------- | ---------------------------------------------------------------- |
 | Bytes 32 (char)  | button left (L) |
 | Bytes 33 (char)                     | byte to control motor turning left          |
