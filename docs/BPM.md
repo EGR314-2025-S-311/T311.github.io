@@ -43,8 +43,7 @@ Title: Block Diagram, Process Diagram, and Message Structure
 | Bytes 5-8 (char)                         | Light Level Reading - "XXXX"                                     |
 
 
-
-| Message Type44 Definitions                |                                                                  |
+| Message Type 3 Definitions                |                                                                  |
 | ----------------------------------------- | ---------------------------------------------------------------- |
 | Bytes 32 (char)  | button left (L) |
 | Bytes 33 (char)                     | byte to control motor turning left          |
@@ -54,7 +53,7 @@ Title: Block Diagram, Process Diagram, and Message Structure
 | **Message Type**          | **Message ID Type: Char** | **Rohan HMI ID: f**                        | **Maximus Sensor ID: m**          | **Shon Motor ID: h**                                             | **Shelton MQTT ID: l**                  |
 |---------------------------|---------------------------|--------------------------------------------|-----------------------------------|------------------------------------------------------------------|-----------------------------------------|
 | Mode Toggle               | M                         | R (activates button toggle to control motor) | -            | R (Sets motor into manual control using buttons)                 | S (mqtt topic: /EGR314/TEAM311/Mode)    |
-| Light Levels              | S                    | S (recieves and diesplays light level to screen)                                        | S (sends light data to motor)     | R (using data, turns motor in direction with highest light level) | S (recieves and diesplays light level to screen)  |     
+| Light Levels              | S                    | S (recieves and diesplays light level to screen)                                        | S (sends light data to motor)     | R (using data, turns motor in direction with highest light level) | S (recieves and diesplays light level to MQTT explorer)  |     
 | Button-Digital Signal     | L & R                     |                                           | -            | R (manual control using buttons)                                 | -                          |
 
 
