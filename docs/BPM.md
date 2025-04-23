@@ -53,8 +53,8 @@ Title: Block Diagram, Process Diagram, and Message Structure
 | **Message Type**          | **Message ID Type: Char** | **Rohan HMI ID: f**                        | **Maximus Sensor ID: m**          | **Shon Motor ID: h**                                             | **Shelton MQTT ID: l**                  |
 |---------------------------|---------------------------|--------------------------------------------|-----------------------------------|------------------------------------------------------------------|-----------------------------------------|
 | Mode Toggle               | M                         | R (activates button toggle to control motor) | -            | R (Sets motor into manual control using buttons)                 | S (mqtt topic: /EGR314/TEAM311/Mode)    |
-| Light Levels              | S                    | S (recieves and diesplays light level to screen)                                        | S (sends light data to motor)     | R (using data, turns motor in direction with highest light level) | S (recieves and diesplays light level to MQTT explorer)  |     
-| Button-Digital Signal     | L & R                     |                                           | -            | R (manual control using buttons)                                 | -                          |
+| Light Levels              | S1 & S2                    | R (recieves and displays light level to screen)                                        | S (sends light data to motor)     | R (using data, turns motor in direction with highest light level) | R (mqtt topic: /EGR314/TEAM311/LightLevels)  |     
+| Button-Digital Signal     | L & R                     | S (button control if in manual)                                   | -            | R (manual control using buttons)                                 | -                          |
 
 
 
