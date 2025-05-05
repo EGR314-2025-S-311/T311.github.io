@@ -49,6 +49,10 @@ Wi-Fi connectivity plays a key role in this project, allowing students to intera
 
 <img src="https://raw.githubusercontent.com/EGR314-2025-S-311/T311.github.io/refs/heads/main/images/Screenshot%202025-01-25%20224655.png" alt="Sort, Rank, Group">
 
+## Decision making Process: 
+
+For our decision-making process, there was a focus on coming up with key features that would also mesh well together and the concept of a solar tracker had the potential to integrate several of these features. The end result involved the core concept of creating a solar panel that can follow sunlight automatically to improve its output through the application of several features. Combined these features would use light and voltage sensors to drive a motor, while also including app-based and physical interfaces. This would showcase to students both automation and renewable (solar) energy and allowed us to clearly divide up different features among the four systems that would be involved in the project. Throughout the project, there was a need to adapt the systems to respond to problems that arose in both software and hardware development, though the core idea of a solar tracker remained. While there were changes like the removal of features like the voltage sensor and its corresponding display, the concept remained visually and conceptually the same.
+
 ## Presentation
 
 <iframe width="560" height="315" 
