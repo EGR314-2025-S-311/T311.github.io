@@ -2,8 +2,20 @@
 Title: Block Diagram, Process Diagram, and Message Structure 
 ---
 ## Part 1: Team Block Diagram
-<div style="overflow-x: auto; width: 100%;">
-  <img src="https://raw.githubusercontent.com/EGR314-2025-S-311/T311.github.io/refs/heads/main/images/Team%20Block%20Diagram-Page-2.jpg" style="width: 2000px;">
+<style>
+  .scroll-container {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .scroll-container img {
+    width: 2000px;
+    display: inline-block;
+  }
+</style>
+
+<div class="scroll-container">
+  <img src="https://raw.githubusercontent.com/EGR314-2025-S-311/T311.github.io/refs/heads/main/images/Team%20Block%20Diagram-Page-2.jpg" alt="Block Diagram">
 </div>
 
 
