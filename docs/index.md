@@ -16,6 +16,18 @@ title: Welcome
 - ASU EGR 314
 - Instructor: Kevin Nichols
 
+
+
+### Summary
+
+
+
+### Final Project
+
+
+![image](https://github.com/user-attachments/assets/6635c092-6f1e-4803-8f77-a476e7b43a0e)
+
+
 ### Individual Websites
 
 | Websites |
