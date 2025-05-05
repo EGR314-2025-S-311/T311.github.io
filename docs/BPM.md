@@ -2,7 +2,9 @@
 Title: Block Diagram, Process Diagram, and Message Structure 
 ---
 ## Part 1: Team Block Diagram
-<img src="https://raw.githubusercontent.com/EGR314-2025-S-311/T311.github.io/refs/heads/main/images/TeamBLOCK.png">
+<img src="https://raw.githubusercontent.com/EGR314-2025-S-311/T311.github.io/refs/heads/main/images/Team%20Block%20Diagram-Page-2.jpg" width="4000">
+
+
 
 [Block Diagram Download](https://github.com/EGR314-2025-S-311/T311.github.io/blob/main/images/Team%20Block%20Diagram.pdf)
 
