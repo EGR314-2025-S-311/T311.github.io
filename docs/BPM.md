@@ -75,12 +75,12 @@ We structured the message to incorporate an order for our data to help streamlin
 
 ## Top 5 Changes in Software
 
-1. The reduction of sensors, where we reduced the number of sensors from 5 to 2, where we removed 2 optical and 1 voltage sensor from our final design.
+1. The team had to reduce the amount of sensors from 5 to 2, where two optical and the voltage sensor were removed from the project completely. With this required changing the structure of the code to accomodate for a different I2C address as initially everything went through a multiplexer.
 
-2. Switching the structure of I2C communication of the LCD, where we switched to an OLED with a simpler method of communication.
+2. The team had to change the structure of the I2C communication for the HMI as the team decided to switch from an LCD to an OLED due to hardware complications. This required changing the I2C address along with the functions used for the OLED. 
 
-3. The restructuring of our API, where we switched from using uint8 variables to characters instead.
+3. The API was restructured to accomodate for strings of characters rather than utilizing uint8 variables. This made it easier for teammates to decipher the strings of information being sent over UART as there was complications with the API previously while utilizing uint8 variables.
 
-4. Changing the range of optical sensors from 0-65535 down to 0-9999 to help accommodate a lesser message length.
+4. The team had to change the value at which the sensors read from 65535 to 9999 to accomodate for how the API was structured. If this change was not made, it would create complications with the API structure, making it impossible for the motor to read sensor data.
 
-5. Displaying sensor values on the user interface and MQTT server instead of the voltage value from the voltage sensor. 
+5. Due to exclusion of the voltage sensor, the code for the HMI and MQTT had to be changed to display light levels coming from the two optical sensors as their was no voltage sensor. This was done to meet product requirements and also show functionality on how the team;s individual subsystems communicate entirely
