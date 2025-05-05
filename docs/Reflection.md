@@ -11,6 +11,25 @@ At the end of the semester, a very important lesson that the team learned was be
 
 ## Recommendations for For Students
 
+<ol>
+  <li>
+    Students need to build a strong foundation in time management and organization skills. This class was exceedingly harder than EGR 304 and required a lot more time to be allocated outside of class to be successful. Students can break tasks into smaller steps and also tackle problems early on so there is more time to seek help.
+  </li>
+  <li>
+    Students should not be afraid to seek help from both professors and teaching assistants. They were in the same shoes at one point, so asking questions and going to office hours are crucial, especially when you are stuck.
+  </li>
+  <li>
+    Students must understand the value of the datasheet and do research beforehand, especially during component selection. This is important as these problems can cause massive issues down the road, especially during PCB design or software development.
+  </li>
+  <li>
+    Students should use components that are already applicable in labs such as a voltage regulator, stepper motor driver, or even some sensors. This is due to the fact that you already have it working on a breadboard if you were successful with the lab, making it very simple to create a working schematic with the SMD variant of the part.
+  </li>
+  <li>
+    Students should have multiple options to fall back upon, especially when something does not work. This could include purchasing extra components or even different components if you later figure out some are not compatible with each other.
+  </li>
+</ol>
+
+
 
 ## Version 2.0
 
