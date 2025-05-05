@@ -2,7 +2,7 @@
 title: Welcome 
 ---
 
-## Team Information
+## Team Information:
 
 ### Team Members
 - Shon Ha
@@ -19,8 +19,7 @@ title: Welcome
 
 
 ### Summary
-
-
+Our project is a solar panel tracker that adjusts the position of a solar panel based on sunlight levels. We use two light sensors—one on each side of the panel—to measure how much light is hitting each side. The panel rotates toward the side with more light so it can get the most out of the sun throughout the day. The sensor data is shown on an OLED screen for easy viewing, and it’s also sent to an MQTT server so it can be monitored remotely. Based on the difference between the two sensor readings, a motor moves the panel in the right direction. Each member of our team is responsible for a different part of the system, but everything works together through UART communication. We send and receive short character-based messages between the subsystems to keep everything in sync. This setup keeps the system responsive and makes sure the solar panel is always facing the best direction.
 
 ### Final Project
 
