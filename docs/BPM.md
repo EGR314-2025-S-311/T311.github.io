@@ -2,6 +2,8 @@
 Title: Block Diagram, Process Diagram, and Message Structure 
 ---
 ## Part 1: Team Block Diagram
+
+
 <style>
   .scroll-container {
     overflow-x: auto;
